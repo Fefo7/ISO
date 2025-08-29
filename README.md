@@ -1,6 +1,17 @@
 # Guia de comandos de Linux
 > Para ver todas las variantes de los comandos (man) nos muestra todo lo que hace con los sufijos 
+<p>Algunos de estos comandos al ejecutarlos pueden llegar a tirar algun error ya que no tenemos los paquetes instalados para ello tenemos que conocer el sistema de empaquetado (en este caso de Debian) </p>
+<div>
+  <p>Debian nos ofrece el "apt-get" para instalar paquetes de una forma mas sencilla</p>
+  <ol>
+    <li> Primero que debemos hacer actulizar las listas de paquete con "apt-get update"</li>
+    <li> Luego podriamos instalar algun paquete nuevo ingresando "apt-get install", seguido del nombre del paquete a instalar</li>
+  </ol>
+  <spam> <a href="https://www.debian.org/doc/manuals/apt-guide/ch1.es.html"> Fuente del sistema de empaquetado</a> </spam> <br>
+  <spam> <a href="https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html"> Fuente de la wiki oficial de Debian</a> </spam>
 
+</div>
+<h3>Comandos</h3>
 <details>
   <summary>Archivos y editores</summary>
   <p>En linux todo es un fichero. Estos ficheros se organizan en una estructura de jerarquia, de tipo arbol. El nivel mas alto del sistema de fichero es / o directorio raiz. Todos los demas ficheros y directorios estan debajo.</p>
@@ -12,7 +23,7 @@
        <li>/dev: Ficheros de dispositivo</li>
        <li>/etc: ficheros de configuracion, scripts de arranque.</li>
        <li>/home: directorios personales</li> 
-      <a href="https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html"> Ver mas sobre ficheros en GNU/Linux </a>
+      <a href="[https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html](https://www.debian.org/doc/index.es.html)"> Ver mas sobre ficheros en GNU/Linux </a>
     </div>
   </div>
   
