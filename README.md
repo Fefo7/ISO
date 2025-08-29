@@ -30,6 +30,7 @@
   - *cat*: podemos ver las lineas del archivo
   - *more*: te permite desplazarte por el archivo
   - *less*: te permite ver linea por linea
+  - *head*: muestra las primeras 10 lineas de cada archivo
   - *df -h /home*: con este comando podemos ver cuanto espacio nos queda en la particion
  </details>
  <details>
@@ -52,6 +53,24 @@
  </details>
  
 <details>
-  <summary>Test</summary>
+  <summary>Gestion y ayuda</summary>
+  <p>which "comando", nos dice donde se ubica el comando</p>
+  
+  <div>
+    
+  - *shutdown [opciones] [tiempo] [mensaje]*: apaga (-h) o reinicia(-r) el sistema.
+    - ejemplo: shutdown +15 "Backup en curso" 
+  - *reboot*: reinicia el sistema de forma sgura, cerrando procesos y desmontando sistemas de archivos correctamente (requiere privilegios).
+  - *halt*: detiene el sistema de forma segura cerrando todos los procesos, apaga la CPU y sincroniza los sistema de archivos (requiere privilegios)
+  - *uname -a*: Muestra informacion detallada del sistema operativo
+  - *dmesg*: Podemos ver los mensajes del Kernel, podemos diagnosticar el hardware y arranque del sistema y eventos del nucleo (requiere privilegios)
+  - *lspci*: Muestra una lista de los dispositivos conectados al bus PCI (Peripheral Component Interconnect).(requiere privilegios)
+  - *at*: Programa tareas unicas que se ejecutaran en un momento especifico en el futuro. Lee los comandos desde la entrada o desde una rchivo usa el shell por defecto (/bin/sh) para ejecutar las tareas.
+    -  *atq*: Lista las tareas pendientes
+    -  *atrm*: Elimina una tarea programada por si ID
+  - *cron*: se usa para tareas repetitivas
+  - *netstat*: Monitoreo de red
+
+  </div>
 </details>
 
